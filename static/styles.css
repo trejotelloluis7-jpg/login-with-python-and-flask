@@ -1,0 +1,94 @@
+body {
+    background: black;
+    font-family: 'cambria';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-box {
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    width: 320px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.logo {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+input:focus {
+    border: 2px solid #007BFF;
+    outline: none;
+}
+
+.extra {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+.result-box {
+    width: 300px;
+    background: white;
+    padding: 30px;
+    margin: 120px auto;
+    text-align: center;
+    border-radius: 10px;
+    background-color: antiquewhite;
+}
+
+.result-box h1 {
+    margin-bottom: 10px;
+}
+
+.result-box a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: blue;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.error {
+    border: 3px solid red;
+}
+
+.pepito {
+    color: #007BFF;
+    font-family: 'Courier New';
+}

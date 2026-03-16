@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<body>
+
+    <div class="login-box">
+
+        <h1>LOGIN</h1>
+        <p class="pepito"> Welcome to the system
+
+        </p>
+
+        <form action="/login" method="POST">
+
+            <input type="text" name="usuario" placeholder="Usuario" required>
+
+            <input type="password" name="contraseña" placeholder="Contraseña" required>
+
+            <div class="extra">
+
+                <label>
+                    <input type="checkbox" name="recordar">
+                    Recordarme
+                </label>
+
+                <a href="#">Olvide mi contraseña</a>
+
+            </div>
+
+            <button type="submit">Ingresar</button>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
